@@ -17,12 +17,13 @@
 
 ## 解决方案
 1. 访达进入 /Application/AccessClient 的显示包内容
-<img width="570" height="352" alt="image" src="https://github.com/user-attachments/assets/094bc504-04bc-47e6-af3b-754b7548348f" />
-
+<img width="570" height="352" alt="image" src="https://github.com/user-attachments/assets/094bc504-04bc-47e6-af3b-754b7548348f" />  
+<br>
+<br>
 2. 进入Contents/Resources/Scripts/Loader
 <img width="1840" height="872" alt="image" src="https://github.com/user-attachments/assets/0fef0d80-d68a-4819-8fef-23619a80bd32" />
-
-
+<br>
+<br>
 3. 编辑template_file.py 加上-o HostkeyAlgorithms=+ssh-rsa参数
 <img width="2716" height="552" alt="image" src="https://github.com/user-attachments/assets/5406b96b-0b5f-4d3a-b716-3453d0bcaad9" />
 
