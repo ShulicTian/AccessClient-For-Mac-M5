@@ -30,4 +30,4 @@
 > set pid [spawn ssh $user\@$host -p $port -o PreferredAuthentications=password -o PubkeyAuthentication=no -o StrictHostKeyChecking=no -o HostkeyAlgorithms=+ssh-rsa]
 
 ## 闪退原因
-部分堡垒机使用旧的算法,例如 ssh-dss, Mac M5 自带的 ssh 版本较高,已完全淘汰或默认不使用一些旧算法,使用参数指定添加对就算法的支持即可连接成功
+部分堡垒机使用旧的算法,例如 ssh-dss, Mac M5 自带的 ssh 版本较高,已完全淘汰或默认不使用一些旧算法,使用参数指定添加对旧算法的支持即可连接成功
